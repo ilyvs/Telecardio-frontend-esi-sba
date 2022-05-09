@@ -1,0 +1,32 @@
+.statistics {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.statistics__Card {
+    width: 40%;
+    padding: 30px;
+    background-color: #EAEAEA;
+    border-radius: 69px;
+    border: none
+}
+
+.statistics__RoundNumber{
+    border: 8px solid #707070;
+    font-size: 4em;
+    font-weight: bold;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+strong{
+    color: green;
+}

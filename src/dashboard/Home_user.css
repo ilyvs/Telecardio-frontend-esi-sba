@@ -1,0 +1,14 @@
+.sections{
+    display: flex;
+}
+.userLeft_section {
+    background-color: #0D6EFD;
+    width: 20%;
+    height: 100vh;
+    border: 1px solid #0D6EFD;
+}
+.userRight_section {
+    width: 80%;
+    height: 100vh;
+    overflow: scroll;
+}

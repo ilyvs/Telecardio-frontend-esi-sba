@@ -1,0 +1,43 @@
+.header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color: #383C58;
+    justify-content: end;
+    border: none;
+   
+}
+
+.header__logo {
+    width: 100%;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__option{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+    margin-top: 8px;
+    
+}
+.headerOption__firstLine{
+    color: black;
+}
+.headerOption__secondLine{
+    background-color: #383C58;
+    border: none;
+    font-size: 0.8em;
+}
+

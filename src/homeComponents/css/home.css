@@ -1,0 +1,160 @@
+/* navbar */
+.navbar_homepage{
+    display: block;
+    text-align: center;
+    background-color: #F5F5F5 ;
+    padding: 10px;
+}
+
+.navbar_homepage h2{
+    color: #061341;
+    font-weight: bold;
+}
+ul{
+    width: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style-type: none;
+    color:#000000 ;
+    opacity: 0.43;
+}
+
+.navbar-link_homepage{
+    text-decoration: none;
+}
+
+
+/* footer */
+footer{
+    margin-top: 100px;
+    padding: 30px;
+    background-color: #061341;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.informations_homepage h4{
+    text-align: center;
+}
+
+.logo_homepage{
+    position: absolute;
+    bottom: 10px;
+}
+
+.logo_homepage h1{
+    text-align: center;
+}
+
+
+.rights-statement_homepage{
+    color: #000;
+}
+
+/* background image */
+.background-image_homepage{
+    position: relative;
+}
+.background-image_homepage img{
+    opacity: 0.58;
+    width: 100%;
+}
+
+.header_homepage{
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    
+}
+
+.header_homepage h1{
+    color: #112c85;
+    text-shadow: 1px 1px 2px #F5F5F5;
+    font-weight: bold;
+}
+.create-doc-patient_homepage{
+    text-decoration: none;
+    color: #fff
+}
+
+.create-doc-patient-btn_homepage:hover {
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.294), 20px 17px 50px 0 rgba(0,0,0,0.19);
+}
+.create-doc-patient-btn_homepage {
+    display: block;
+    background: #112c85;
+    padding: 5px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 10vh;
+    width: 50%;
+    margin: auto;
+}
+
+/* services */
+.ourServices_homepage {
+    margin-top: 100px;
+}
+
+.ourServices_homepage .title_homepage{
+    background: #112c85;
+    color: #ffffff;
+    font-size: 1.6em;
+    font-weight: bold;
+    width: 30%;
+}
+.services-items_homepage{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contact_homepage{
+    margin-top: 100px; 
+}
+
+.contact_homepage .title_homepage{
+    background: #112c85;
+    color: #ffffff;
+    font-size: 1.6em;
+    font-weight: bold;
+    width: 30%;
+}
+
+
+.contact-form_homepage{
+    background: #F5F5F5;
+    padding: 5%;
+}
+
+.contact-form_homepage form{
+    text-align: center;
+}
+
+input{
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+textarea{
+    width: 60%;
+}
+
+.homePageBtn_homepage {
+    margin-top: 20px;
+    color: #fff;
+    background: #112c85;
+    width: 50%;
+    border: none;
+    border-radius:50px;
+}

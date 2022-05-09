@@ -1,0 +1,34 @@
+.feedback {
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid black;
+    background-color: #cccdd3;
+    display: flex;
+    border-radius: 69px;
+    height: 70%;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 10px 10px 8px;
+}
+
+.feedback:hover{
+    transform: scale(1.1);
+}
+
+.userImage{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.userImage>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #383C58;
+    margin: auto;
+}
+
+.userInformation_email{
+    font-weight: bold;
+}

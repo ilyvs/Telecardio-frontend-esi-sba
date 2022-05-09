@@ -1,0 +1,97 @@
+.signUp-container {
+    padding: auto;
+    margin: auto;
+}
+
+.leftSide-section{
+    float: left;
+    width: 35%;
+    height: 100vh;
+    background-image: url("../../images/signin/leftSideSignIn.jpg");
+    text-align: center;
+
+}
+
+.leftSide-section .leftSide-container{
+    color: #fff;
+    padding: auto;
+    margin-top: 30%;
+}
+
+.btnAuth {
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.leftSide-container .title{
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.leftSide-container .leftSide-logo{
+    font-size: 3em;
+    text-shadow: 1px 1px 2px #F5F5F5;
+}
+
+.leftSide-container .home-btn{
+    margin-top:10%;
+}
+
+.home-btn button{
+    width: 40%;
+    border: none;
+    border-radius:50px;
+    font-weight: bold;
+}
+
+.home-btn button:hover {
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.294), 20px 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* right side */
+.rightSide-section{
+    float: right;
+    width: 65%;
+    text-align: center;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.rightSide-section .title{
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 2%;
+}
+
+.sex-choice select{
+    width: 50%;
+    margin: 10px;
+}
+
+.rightSide-section .signin-btn{
+    width: 50%;
+    border-radius: 50px;
+    margin-top: 2%;
+    background-color: rgb(149, 149, 149);
+    color: #fff;
+    border: none;
+}
+
+/* signin */
+
+.rightSide-section .signup-btn{
+    width: 50%;
+    border-radius: 50px;
+    margin-top: 2%;
+    background-color: #515782;
+    color: #fff;
+    border: none;
+}
+.avatar-auth{
+    text-align: center;
+
+}
+
+.avatar-auth img{
+    width: 15%;
+    margin-bottom: 5%;
+}
